@@ -2,55 +2,69 @@
 title: Home
 layout: default
 ---
-
-<main role="main"></main>
-    <div class="jumbotron">
-        <div class="container"></div>
-            <div class="text-center">
-                <h1>Ben Frisbie</h1>
-                <img class="rounded" src="assets/images/hiking/new-river-wv-rounded.png" width="500">
-
-                <p>
-                    👋 I'm Ben Frisbie! Thanks for checking out my website!
-                </p>
-                <p>
-                    I'm a software developer living in the Metro Detroit region of Michigan.
-                </p>
-                <p>
-                    Check out some of my hobbies and interests below!
-                </p>
-            </div>
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/images/hiking/new-river-wv-rounded.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">I'm Ben Frisbie</h1>
+            <p class="lead">👋 Welcome to my website!</p>
+            <p class="lead">I'm a software developer living in the Metro Detroit region of Michigan.</p>
+            <p class="lead">Check out some of my hobbies and interests below!</p>
         </div>
     </div>
+</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Programming</h2>
-                <p>Todo</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Hiking</h2>
-                <p>Todo</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Spicy Food</h2>
-                <p>Todo</p>
+<div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Hobbies</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                <use xlink:href="#bootstrap" />
+            </svg>
+            <div>
+                <h4 class="fw-bold mb-0">Programming</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
             </div>
         </div>
-        <hr>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Video Games</h2>
-                <p>Todo</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Board Games</h2>
-                <p>Todo</p>
+        <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                <use xlink:href="#cpu-fill" />
+            </svg>
+            <div>
+                <h4 class="fw-bold mb-0">Hiking</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
             </div>
         </div>
-        <hr>
+        <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                <use xlink:href="#calendar3" />
+            </svg>
+            <div>
+                <h4 class="fw-bold mb-0">Spicy Food</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                <use xlink:href="#home" />
+            </svg>
+            <div>
+                <h4 class="fw-bold mb-0">Video Games</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                <use xlink:href="#speedometer2" />
+            </svg>
+            <div>
+                <h4 class="fw-bold mb-0">Board Games</h4>
+                <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+        </div>
 
     </div>
-</main>
+</div>
